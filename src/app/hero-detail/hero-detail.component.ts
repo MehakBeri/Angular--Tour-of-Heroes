@@ -29,4 +29,8 @@ getHero(): void {
     .subscribe(hero => this.hero = hero);
 }
 
+goBack(): void {
+  this.location.back();
+}
+
 }
